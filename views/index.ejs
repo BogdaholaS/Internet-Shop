@@ -1,0 +1,118 @@
+<%- include('./includes/top.ejs') %>
+<%- include('./includes/header.ejs') %>
+<main>
+    <section class="advert">
+        <div class="block">
+            <h2>iPhone 6 32Gb Black</h2>
+            <p>At first, for some time, I was not able to answer him one word;
+                but as he had taken me in his arms I held fast by him, or I should have fallen to the ground.</p>
+            <button>Buy Now</button>
+        </div>
+    </section>
+    <section class="goods">
+        <div class="goods-wrapper">
+            <div class="goods-panel">
+                <div class="sortBy">
+                    <span>Sort By:</span>
+                    <select>
+                        <option value="">Best Match</option>
+                        <option value="">Date</option>
+                    </select>
+                </div>
+                <div class="keywords">
+                    <span>Keywords</span>
+                    <input type="text">
+                </div>
+                <div class="price">
+                    <span>Price</span>
+                    <input type="text">-<input type="text">
+                </div>
+            </div>
+            <div class="goods-block">
+                <div class="goods-filters">
+                    <div class="available_brands">
+                        <div class="available">
+                            <div class="available-title">
+                                <h3>Available</h3>
+                            </div>
+                            <form class="available-filters">
+                                <div class="available-filter-item">
+                                    <label><input type="radio" name="availability">In Storage</label>
+                                </div>
+                                <div class="available-filter-item">
+                                    <label><input type="radio" name="availability">In Online-Shop</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="brands">
+                            <div class="brands-title">
+                                <h3>Brands</h3>
+                            </div>
+                            <form class="brands-filters">
+                                <div class="brands-filter-item">
+                                    <label><input type="checkbox" name="brand">Apple</label>
+                                </div>
+                                <div class="brands-filter-item">
+                                    <label><input type="checkbox" name="brand">Sony</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="condition">
+                        <div class="condition-title">
+                            <h3>Condition</h3>
+                        </div>
+                        <form class="conditions-items">
+                            <div class="condition-item">
+                                <label><input type="checkbox">New</label>
+                            </div>
+                            <div class="condition-item">
+                                <label><input type="checkbox">Used</label>
+                            </div>
+                            <div class="condition-item">
+                                <label><input type="checkbox">For Parts or not Working</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="delivery">
+                        <div class="delivery-title">
+                            Delivery Options
+                        </div>
+                        <div class="delivery-options">
+                            <label><input type="radio" name="delivery">Free</label>
+                        </div>
+                        <div class="delivery-options">
+                            <label><input type="radio" name="delivery">$4.99</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods-items">
+                    <div class="goods-item">
+                        <div class="goods-img">
+                            <img src="../images/main/goods/appleTV.png" alt="">
+                        </div>
+                        <div class="goods-description">
+                            <div class="title"> Apple TV 32GB</div>
+                            <div class="price">$49.99</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pagination">
+                <div class="prevPage">
+                    <img src="../images/main/Prev_Icon.png" alt="">
+                </div>
+                <ul class="pages">
+                    <li class="page"><a href="#">1</a></li>
+                    <li class="page"><a href="#">2</a></li>
+                    <li class="page"><a href="#">3</a></li>
+                </ul>
+                <div class="nextPage">
+                    <img src="../images/main/Next_Icon.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<%- include('./includes/bottom.ejs') %>
+
