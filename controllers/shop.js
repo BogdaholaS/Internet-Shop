@@ -1,3 +1,7 @@
+const Product = require('../models/Product');
+
 exports.getIndex = (req, res, next) => {
-  res.render('index', { pageTitle: 'Internet Shop' });
+  Product.find().then(products => {
+      res.render('index', { pageTitle: 'Internet Shop', products });
+  });
 };
