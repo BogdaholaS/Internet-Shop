@@ -26,7 +26,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 0 29px; }
+        margin: 0 15px; }
         header nav ul li img {
           margin: 0 8px; }
         header nav ul li a {
@@ -147,7 +147,8 @@ main .goods {
             align-items: center;
             padding: 10px;
             width: 270px;
-            height: 250px; }
+            height: 250px;
+            margin: 0 auto; }
             main .goods .goods-wrapper .goods-block .goods-items .goods-item .goods-img img {
               width: 198px;
               height: 198px; }
@@ -185,7 +186,8 @@ main .goods {
             font-family: Montserrat, sans-serif;
             font-size: 11px;
             text-transform: uppercase;
-            letter-spacing: 1.1px; }
+            letter-spacing: 1.1px;
+            font-weight: bold; }
           main .goods .goods-wrapper .goods-block .goods-filters .available_brands .available .available-filters {
             display: flex;
             flex-direction: column; }
@@ -207,7 +209,8 @@ main .goods {
             font-family: Montserrat, sans-serif;
             font-size: 11px;
             text-transform: uppercase;
-            letter-spacing: 1.1px; }
+            letter-spacing: 1.1px;
+            font-weight: bold; }
           main .goods .goods-wrapper .goods-block .goods-filters .available_brands .brands .brands-filters {
             display: flex;
             flex-direction: column; }
@@ -234,7 +237,8 @@ main .goods {
             font-size: 11px;
             font-family: Montserrat, sans-serif;
             text-transform: uppercase;
-            letter-spacing: 1.1px; }
+            letter-spacing: 1.1px;
+            font-weight: bold; }
           main .goods .goods-wrapper .goods-block .goods-filters .condition .conditions-items .condition-item {
             height: 50px;
             padding-left: 20px;

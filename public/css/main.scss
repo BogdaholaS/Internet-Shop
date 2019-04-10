@@ -27,7 +27,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin:0 29px;
+        margin:0 15px;
         img {
           margin: 0 8px;
         }
@@ -173,6 +173,7 @@ main {
               padding: 10px;
               width: 270px;
               height: 250px;
+              margin: 0 auto;
               img {
                 width: 198px;
                 height: 198px;
@@ -219,6 +220,7 @@ main {
                 font-size: 11px;
                 text-transform: uppercase;
                 letter-spacing: 1.1px;
+                font-weight: bold;
               }
               .available-filters {
                 display: flex;
@@ -249,6 +251,7 @@ main {
                 font-size: 11px;
                 text-transform: uppercase;
                 letter-spacing: 1.1px;
+                font-weight: bold;
               }
               .brands-filters {
                 display: flex;
@@ -284,6 +287,7 @@ main {
               font-family: Montserrat, sans-serif;
               text-transform: uppercase;
               letter-spacing: 1.1px;
+              font-weight: bold;
             }
             .conditions-items {
               .condition-item {
@@ -415,7 +419,7 @@ main {
   }
 }
 footer {
-  height: 300px;
+    height: 300px;
   background: rgb(34, 35, 40);
   .footer-wrapper {
     margin: 0 auto;
